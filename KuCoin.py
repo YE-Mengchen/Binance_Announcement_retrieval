@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
+import math
 
 url = "https://www.kucoin.com/zh-hant/announcement"
 
@@ -25,5 +26,5 @@ while True:
         print(f"Time: {now}, New Announcement Title: {current_announcement_text}, \n Content: {content}")
   else:
     print(f"Failed to retrieve the web page.")
-  time.sleep(60)
+  time.sleep(80 + random.random() * 20)
     
