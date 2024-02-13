@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 from datetime import datetime
 import math
+import random
 
 url = "https://www.kucoin.com/zh-hant/announcement"
 

@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
+import random
 
 url = "https://www.okx.com/cn/help/section/announcements-latest-announcements"
 
